@@ -1,0 +1,37 @@
+* {
+	margin: 0px;padding: 0px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+	background: url(../image/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conts {
+	width: 500px;height: 540px;
+	margin:40px auto;
+	background: #95afc0; animation: b 3s infinite;
+} 
+@keyframes b { from{background:#95afc0; } to{background: red;} }
+.conts :hover {transform:scale(1.1);}
+
+.login-sects{
+	/*background: darkcyan;*/
+	padding :30px;
+}
+.login-sects img{ margin:0px auto;
+	height: 135px;width: 135px;
+	display: block; }
+
+
+.login-sects h3{ text-align:center;color:#30336b;
+	font-size: 37px; text-shadow: 4px 4px 4px black; }
+.form-controls {margin-left: 10px; margin-top:14px;  
+	width: 90%;height: 17px;background: black;color: #fff;
+    padding: 7px; 
+     }
+
+ .btns{margin:21px auto;display: block;color: #fff;background:green;
+ 	padding: 6px 15px;border: none;
+ 	text-transform: uppercase; width: 130px;}
+

@@ -1,0 +1,35 @@
+* {
+	margin: 0px;padding: 0px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+	background: url(../image/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contr {
+	width: 450px;height:500px;
+	margin: 40px auto;
+	background:black;animation: c 3s infinite;
+}
+@keyframes c {from{background: black} to {background:green; }}
+
+.login-secr{
+	/*background: darkcyan;*/
+	padding :10px;
+}
+.contr :hover{ transform: skew(15deg); }
+.login-secr img{ margin:0px auto;
+	height: 150px;width: 105px;
+	display: block; }
+
+
+.login-secr h3{ text-shadow: 5px 5px 5px red; text-align:center;color:orange;font-size: 37px;  }
+.form-controlr {margin-top:15px;margin-left: 25px;  width: 80%;
+    padding: 7px; 
+     }
+
+ .btnr{margin:40px auto;display: block;color: #fff;background:maroon;
+ 	padding: 6px 15px;border: none;text-transform: uppercase;}
+
+ 
